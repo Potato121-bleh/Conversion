@@ -318,7 +318,7 @@ function Decimaltobinaryconverter(){
   
   
   <div className={answerbtn}> 
-  <p className={`D2B-answer-text ${answerbtn}`} >Your Answer is: {answer}</p>
+  <p className={`D2B-answer-text ${answerbtn}`} id="D2B-answer-box" >Your Answer is: {answer}</p>
   <button className={`D2B-reset-btn ${answerbtn}`} onClick={handlereset} >Reset</button>
   </div>
  
@@ -334,7 +334,7 @@ function Decimaltobinaryconverter(){
       <p id='D2B-explaination' >{explaination}</p>
       <br/>
       <p>The answer of our binary is where we count <br/>from bottom to the top</p>
-      <p>Which is: <span className='D2B-total-answer' >{answer}</span></p>
+      <p id="D2B-answer-box" >Which is: <br/><br/> <span className='D2B-total-answer' >{answer}</span></p>
       <br/>
       <p className={displayfloatalert}  >NOTE: In this case we have float number, We just take the float number <br/> 
       and than mutiply by 2 amd take the integers of that result as our binary number<br/>

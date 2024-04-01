@@ -98,3 +98,6 @@ body {
     cursor: pointer;
     visibility: hidden;
 }
+#D2B-answer-box {
+    font-size: 9px;
+}
